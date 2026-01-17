@@ -8,7 +8,7 @@ Features:
 
 - ✅ Automatically logs the time when the device suspends
 - 🕒 Keeps the last 6 sleep times (no wake times)
-- 🧭 Accessible from the KOReader UI (menu & gesture)
+- 🧭 Accessible from the KOReader UI (via gesture)
 - 🧾 Human-friendly plain text log for easy debugging
 - 🔁 Persists across device restarts
 - ✅ Tested on PocketBook Era Color
