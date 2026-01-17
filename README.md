@@ -1,6 +1,6 @@
-# Koreader Sleep Logger 💤📘
+# Koreader Sleep Logger
 
-A tiny [KOReader](https://koreader.rocks/) plugin that logs the device's last sleep times to a simple text file and shows them in an info popup.
+A tiny [KOReader](https://koreader.rocks/) plugin that logs the device's last sleep times to a simple text file and shows them in an info popup. 📖 💤
 
 <img src="koreader_sleeplogger.png" alt="SleepLogger screenshot" width="300"/>
 
