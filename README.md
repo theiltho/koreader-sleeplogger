@@ -1,33 +1,33 @@
-# Koreader Plugin For Sleep Mode Tracking
+# Koreader Sleep Logger 💤📘
 
-Logs the last sleep times of the device to a file and makes them available via an info message popup.
+A tiny [KOReader](https://koreader.rocks/) plugin that logs the device's last sleep times to a simple text file and shows them in an info popup.
 
-**Features:**
+<img src="koreader_sleeplogger.png" alt="SleepLogger screenshot" width="300"/>
 
-- Automatically logs sleep time when device suspends
-- Stores only last 6 sleep times (no wake times)
-- Accessible via menu item
-- Gesture support for quick access
-- Simple text file format for easy debugging
-- Works across device restarts
-- Tested on pocketbook era color
+Features:
 
-  <img src="koreader_sleeplogger.png" alt="SleepLogger screenshot" width="300"/>
+- ✅ Automatically logs the time when the device suspends
+- 🕒 Keeps the last 6 sleep times (no wake times)
+- 🧭 Accessible from the KOReader UI (menu & gesture)
+- 🧾 Human-friendly plain text log for easy debugging
+- 🔁 Persists across device restarts
+- ✅ Tested on PocketBook Era Color
 
-## Installation
+## Installation 🛠️
 
-1. Create the plugin directory structure:
+1. Open your KOReader installation folder and navigate to:
+   `koreader/plugins/`
 
-   - Navigate to your KOReader plugins folder: koreader/plugins/
-   - Create a new folder: sleeplogger.koplugin
+2. Create the plugin directory:
+   `sleeplogger.koplugin`
 
-2. Add the files:
+3. Add the plugin files:
+   - `_meta.lua` → `koreader/plugins/sleeplogger.koplugin/_meta.lua`
+   - `main.lua`  → `koreader/plugins/sleeplogger.koplugin/main.lua`
 
-   - Place _meta.lua in koreader/plugins/sleeplogger.koplugin/_meta.lua
-   - Place main.lua in koreader/plugins/sleeplogger.koplugin/main.lua
+4. Restart KOReader.
 
-3. Enable the plugin:
+5. Enable the plugin:
+   - Tools → More tools → Plugin management → Enable "Sleep Logger"
 
-   - Restart KOReader
-   - Go to Tools → More tools → Plugin management
-   - Enable "Sleep Logger"
+That's it — the plugin will automatically start logging future sleep events.
