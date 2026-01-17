@@ -11,7 +11,7 @@ Features:
 - 🧭 Accessible from the KOReader UI (via gesture)
 - 🧾 Human-friendly plain text log for easy debugging
 - 🔁 Persists across device restarts
-- ✅ Tested on PocketBook Era Color
+- ✅ Tested on PocketBook Era Color and Android
 
 ## Installation 🛠️
 
@@ -29,5 +29,7 @@ Features:
 
 5. Enable the plugin:
    - Tools → More tools → Plugin management → Enable "Sleep Logger"
+  
+6. Create a gesture (it's in the `General` section)
 
 That's it — the plugin will automatically start logging future sleep events.
