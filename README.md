@@ -10,6 +10,9 @@ Logs the last sleep times of the device to a file and makes them available via a
 - Gesture support for quick access
 - Simple text file format for easy debugging
 - Works across device restarts
+- Tested on pocketbook era color
+
+  <img src="koreader_sleeplogger.png" alt="SleepLogger screenshot" width="300"/>
 
 ## Installation
 
