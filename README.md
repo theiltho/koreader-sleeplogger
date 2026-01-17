@@ -1,6 +1,17 @@
 # Koreader Plugin For Sleep Mode Tracking
 
-## Installation Instructions
+Logs the last sleep times of the device to a file and makes them available via a info message popup.
+
+**Features:**
+
+- Automatically logs sleep time when device suspends
+- Stores only last 6 sleep times (no wake times)
+- Accessible via menu item
+- Gesture support for quick access
+- Simple text file format for easy debugging
+- Works across device restarts
+
+## Installation
 
 1. Create the plugin directory structure:
 
